@@ -161,16 +161,22 @@ header{
 }
 
 /* FOOTER */
-.footer{  
-}
-.footer_content{
-    background-color: rgb(19, 19, 36);
+footer{
     color: white;
+}
+
+.footer_contact{
+    background-color: rgb(42, 42, 48);
     padding: 50px 0;
     text-align: center;
 }
 
 .footer_single_text{
     margin-bottom: 40px;
-    line-height: 10px;
+}
+
+.footer_copyright{
+    background-color: rgb(17, 17, 20);
+    padding: 20px 0;
+    text-align: center;
 }
