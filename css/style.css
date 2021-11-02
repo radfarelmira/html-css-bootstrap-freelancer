@@ -1,0 +1,43 @@
+/* COMMON */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* HEADER */
+header{
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo,
+.hamburger{
+    font-size: 20px;
+}
+
+.hamburger,
+.header_menu {
+    text-align: right;
+}
+
+.hamburge i{
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.header_menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header_menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
