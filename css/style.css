@@ -9,6 +9,30 @@ ul{
     text-transform: uppercase;
 }
 
+img{
+    width: 100%;
+}
+
+.divisor::before{
+    content: "";
+    display: inline-block;
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.divisor::after{
+    content: "";
+    display: inline-block;
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
 /* HEADER */
 header{
     background-color: gray;
@@ -26,9 +50,12 @@ header{
     text-align: right;
 }
 
-.hamburge i{
+.hamburger a{
     display: inline-block;
+    color: inherit;
+    padding: 0 10px;
     border: 1px solid white;
+    border-radius: 5px;
 }
 
 .header_menu li{
@@ -40,4 +67,26 @@ header{
     display: inline-block;
     text-decoration: none;
     color: inherit;
+}
+
+/* MAIN */
+/* Jumbotron */
+.jumbotron{
+    /* test */
+    background-color: turquoise;
+}
+
+.jumbotron-content{
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron-content .img{
+    margin: auto;
+    width: 50%;
+}.jumbotron-content p{
+    margin-top: 10px;
 }
