@@ -127,3 +127,34 @@ header{
     padding: 10px 0;
     text-align: left;
 }
+
+.download_btn{
+    margin-top: 30px;
+}
+.download_btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+/* Contact */
+.contact_content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact_content .divisor::after,
+.contact_content .divisor::before{
+    background-color: black;
+}
+
+.form{
+    width: 100%;
+    height: 400px;
+    background-color: burlywood;
+    margin-top: 30px;
+}
