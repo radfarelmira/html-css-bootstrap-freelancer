@@ -18,9 +18,9 @@ img{
     display: inline-block;
     width: 10%;
     height: 3px;
-    background-color: white;
     vertical-align: middle;
     margin: 0 5px;
+    background-color: white;
 }
 
 .divisor::after{
@@ -28,9 +28,9 @@ img{
     display: inline-block;
     width: 10%;
     height: 3px;
-    background-color: white;
     vertical-align: middle;
     margin: 0 5px;
+    background-color: white;
 }
 
 /* HEADER */
@@ -76,17 +76,38 @@ header{
     background-color: turquoise;
 }
 
-.jumbotron-content{
-    width: 70%;
+.jumbotron_content{
     margin: auto;
     padding: 20px 0;
     text-align: center;
     color: white;
 }
 
-.jumbotron-content .img{
+.jumbotron_content .img{
     margin: auto;
-    width: 50%;
-}.jumbotron-content p{
+    max-width: 200px;
+}
+
+.jumbotron_content p{
     margin-top: 10px;
+}
+
+/* Portfolio */
+.portfolio_content{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio_content .divisor::after,
+.portfolio_content .divisor::before{
+    background-color: black;
+}
+
+.portfolio_content .images_container{
+    margin: 5px 0;
+}
+
+.portfolio_content .single_image{
+    border-radius: 10px;
+
 }
