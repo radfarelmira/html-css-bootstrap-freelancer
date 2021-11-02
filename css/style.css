@@ -72,13 +72,12 @@ header{
 /* MAIN */
 /* Jumbotron */
 .jumbotron{
-    /* test */
     background-color: turquoise;
 }
 
 .jumbotron_content{
     margin: auto;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
     color: white;
 }
@@ -95,7 +94,7 @@ header{
 /* Portfolio */
 .portfolio_content{
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .portfolio_content .divisor::after,
@@ -109,5 +108,22 @@ header{
 
 .portfolio_content .single_image{
     border-radius: 10px;
+}
 
+/* About */
+.about{
+    background-color: turquoise;
+}
+
+.about_content{
+    width: 60%;
+    margin: auto;
+    color:white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about_text_container{
+    padding: 10px 0;
+    text-align: left;
 }
