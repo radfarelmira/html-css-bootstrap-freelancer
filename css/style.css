@@ -56,6 +56,11 @@ img{
     margin-bottom: 10px;
 }
 
+/* Color */
+.green{
+    color:#1abc9c;
+}
+
 /* HEADER */
 header{
     background-color: #2d3e4f;
@@ -139,42 +144,48 @@ section {
 }
 
 /* Contact */
-.contact_content{
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    padding: 50px 0;
-}
 
-.contact_content .divisor::after,
-.contact_content .divisor::before{
-    background-color: black;
-}
-
-.form{
-    width: 100%;
-    height: 400px;
-    background-color: burlywood;
-    margin-top: 30px;
-}
 
 /* FOOTER */
 footer{
     color: white;
+    text-align: center;
 }
 
-.footer_contact{
-    background-color: rgb(42, 42, 48);
-    padding: 50px 0;
-    text-align: center;
+/* Footer top */
+.footer_top{
+    background-color: #3b546d;
+    padding: 40px;
+}
+
+.footer_top h4{
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .footer_single_text{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-.footer_copyright{
-    background-color: rgb(17, 17, 20);
-    padding: 20px 0;
+.footer_single_text li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer_single_text .circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
     text-align: center;
+    line-height: 50px;
+}
+
+.circle{
+    
+}
+/* Footer bottom */
+.footer_bottom{
+    background-color: #2d3e4f;
+    padding: 30px;
 }
