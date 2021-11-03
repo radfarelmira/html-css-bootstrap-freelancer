@@ -125,33 +125,17 @@ section {
 }
 
 /* About */
-.about{
-    background-color: turquoise;
+.about_content_item{
+    margin-bottom: 30px;
 }
 
-.about_content{
-    width: 60%;
-    margin: auto;
-    color:white;
+.about-download {
     text-align: center;
-    padding: 50px 0;
 }
 
-.about_text_container{
-    padding: 10px 0;
-    text-align: left;
-}
-
-.download_btn{
-    margin-top: 30px;
-}
-.download_btn a{
-    display: inline-block;
+.about-download a{
     text-decoration: none;
     color: inherit;
-    border: 1px solid white;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 /* Contact */
