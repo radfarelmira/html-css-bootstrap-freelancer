@@ -1,26 +1,37 @@
 /* COMMON */
-ul{
-    list-style-type: none;
+header ul,
+footer ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
-.uppercase{
-    text-transform: uppercase;
+/* Backgrounds */
+.green_background {
+    background-color: #1abc9c;
+    color: white;
 }
 
+/* Custom containers */
+.small_container {
+    width: 60%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+/* Image */
 img{
     width: 100%;
+    max-width: 100%;
 }
 
+/* Divisor icon star */
 .divisor::before{
     content: "";
     display: inline-block;
     width: 10%;
     height: 3px;
     vertical-align: middle;
-    margin: 0 5px;
-    background-color: white;
 }
 
 .divisor::after{
@@ -29,84 +40,87 @@ img{
     width: 10%;
     height: 3px;
     vertical-align: middle;
-    margin: 0 5px;
+}
+
+.bg_black::before,
+.bg_black::after {
+    background-color: black;
+}
+
+.bg_white::before,
+.bg_white::after{
     background-color: white;
+}
+
+.divisor{
+    margin-bottom: 10px;
 }
 
 /* HEADER */
 header{
-    background-color: gray;
+    background-color: #2d3e4f;
     color: white;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
-.logo,
-.hamburger{
-    font-size: 20px;
+/* Header left col */
+.brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
+/* Header right col */
 .hamburger,
 .header_menu {
     text-align: right;
 }
 
-.hamburger a{
-    display: inline-block;
-    color: inherit;
-    padding: 0 10px;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
 .header_menu li{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .header_menu a{
-    display: inline-block;
+    font-size: 20px;
     text-decoration: none;
     color: inherit;
+    text-transform: uppercase;
 }
 
 /* MAIN */
+section {
+    padding: 50px 0;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
 /* Jumbotron */
 .jumbotron{
-    background-color: turquoise;
-}
-
-.jumbotron_content{
-    margin: auto;
-    padding: 50px 0;
     text-align: center;
-    color: white;
+    text-transform: uppercase;
 }
 
-.jumbotron_content .img{
+.jumbotron h1{
+    font-size: 40px;
+}
+
+.jumbotron .img{
     margin: auto;
-    max-width: 200px;
-}
-
-.jumbotron_content p{
-    margin-top: 10px;
+    max-width: 250px;
+    margin-bottom: 10px;
 }
 
 /* Portfolio */
-.portfolio_content{
-    text-align: center;
-    padding: 50px 0;
-}
-
-.portfolio_content .divisor::after,
-.portfolio_content .divisor::before{
-    background-color: black;
-}
-
-.portfolio_content .images_container{
-    margin-top: 20px;
-}
-
-.portfolio_content .single_image{
+.images_container .single_image{
     border-radius: 10px;
 }
 
