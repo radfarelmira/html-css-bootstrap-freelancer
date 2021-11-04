@@ -144,17 +144,30 @@ section {
 }
 
 /* Contact */
+/* In questo caso possiamo usare due approcci primo è */
 input[type="text"],
 input[type="email"],
-textarea{
+textarea.form-control{
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    font-size: 20px;
     padding-bottom: 20px;
-  }
+}
+/* secondo è */
+/* .form_container input[type="text"],
+.form_container input[type="email"],
+.form_container textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    padding-bottom: 20px;
+} */
 
 .form-control:focus{
     box-shadow: none;
+    border-color: midnightblue;
 }
 
 /* FOOTER */
